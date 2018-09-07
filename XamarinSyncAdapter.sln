@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinSyncAdapter", "XamarinSyncAdapter\XamarinSyncAdapter\XamarinSyncAdapter.csproj", "{80AB9E7E-76BB-489A-8941-32B2DDC66FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinSyncAdapter.Android", "XamarinSyncAdapter\XamarinSyncAdapter.Android\XamarinSyncAdapter.Android.csproj", "{9B741E7D-0AD3-4639-B3D5-D9621B7206D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80AB9E7E-76BB-489A-8941-32B2DDC66FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AB9E7E-76BB-489A-8941-32B2DDC66FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AB9E7E-76BB-489A-8941-32B2DDC66FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AB9E7E-76BB-489A-8941-32B2DDC66FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B741E7D-0AD3-4639-B3D5-D9621B7206D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B741E7D-0AD3-4639-B3D5-D9621B7206D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B741E7D-0AD3-4639-B3D5-D9621B7206D0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9B741E7D-0AD3-4639-B3D5-D9621B7206D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B741E7D-0AD3-4639-B3D5-D9621B7206D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B741E7D-0AD3-4639-B3D5-D9621B7206D0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91DA65CA-BA25-4D28-A17D-CC4689EA9BC3}
+	EndGlobalSection
+EndGlobal
