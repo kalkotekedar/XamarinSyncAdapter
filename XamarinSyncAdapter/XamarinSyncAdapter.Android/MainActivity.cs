@@ -54,7 +54,7 @@ namespace XamarinSyncAdapter.Droid
         {
             Account newAccount = new Account(ACCOUNT, ACCOUNT_TYPE);
             AccountManager accountManager = (AccountManager)context.GetSystemService(Context.AccountService);
-
+            accountManager.AddAccountExplicitly(newAccount, null, null);
             return newAccount;
         }
     }
